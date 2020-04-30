@@ -20,6 +20,7 @@ pipeline {
                 echo 'Deploying....'
                 echo 'Deploying....'
                 echo 'Deploying....'
+                echo 'Deploying....'
             }
         }
     }
