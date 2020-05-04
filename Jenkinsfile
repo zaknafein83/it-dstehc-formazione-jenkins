@@ -4,10 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-                echo 'Building..'
-                echo 'Building..'
-                echo 'Building..'
+				mvn -version
+
             }
         }
         stage('Test') {
